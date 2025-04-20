@@ -1,5 +1,5 @@
 import { inject, injectable } from 'tsyringe';
-import { IAppController } from '../types/app.type';
+import { IAppController, ReqAppBodyDTO } from '../types/app.type';
 import {
   AppInfoDTO,
   IAppService,
@@ -7,6 +7,7 @@ import {
   INJECT_SVC_APP_SERVICE,
 } from '@rfjs/modules';
 import {
+  Body,
   Ctx,
   Get,
   HttpCode,
@@ -73,12 +74,12 @@ export class AppController implements IAppController {
     throw new HttpException('test http exception');
   }
 
-  /* @Post()
+  @Post()
   async postAppData(
     @Body() body: ReqAppBodyDTO,
   ) {
     return body;
-  } */
+  }
 
   @Post('/files')
   async uploadFiles(
