@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.26](https://github.com/royfuwei/rfjs/compare/v0.0.25...v0.0.26) (2025-04-20)
+
+
+### Bug Fixes
+
+* **apps/api:** add postAppData ([6e98ac8](https://github.com/royfuwei/rfjs/commit/6e98ac84130b371c26278d71995c818c882c4169))
+* **sonar:** fix code smell issues ([cceeb12](https://github.com/royfuwei/rfjs/commit/cceeb128e4d4e6f95d7ceeb1a2f8c1879c4fb418))
+
 ### [0.0.25](https://github.com/royfuwei/rfjs/compare/v0.0.24...v0.0.25) (2024-12-27)
 
 ### [0.0.24](https://github.com/royfuwei/rfjs/compare/v0.0.23...v0.0.24) (2024-12-27)
