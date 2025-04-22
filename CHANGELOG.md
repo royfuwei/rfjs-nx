@@ -2,6 +2,112 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.26](https://github.com/royfuwei/rfjs/compare/v0.0.25...v0.0.26) (2025-04-20)
+
+
+### Bug Fixes
+
+* **apps/api:** add postAppData ([6e98ac8](https://github.com/royfuwei/rfjs/commit/6e98ac84130b371c26278d71995c818c882c4169))
+* **sonar:** fix code smell issues ([cceeb12](https://github.com/royfuwei/rfjs/commit/cceeb128e4d4e6f95d7ceeb1a2f8c1879c4fb418))
+
+### [0.0.25](https://github.com/royfuwei/rfjs/compare/v0.0.24...v0.0.25) (2024-12-27)
+
+### [0.0.24](https://github.com/royfuwei/rfjs/compare/v0.0.23...v0.0.24) (2024-12-27)
+
+
+### Features
+
+* **apps/api:** add simple schedule controller ([3cfbbbc](https://github.com/royfuwei/rfjs/commit/3cfbbbc51795b45cd3ba8b4d8c2fcab018a89ae4))
+* **common/types:** add mongo query types ([589ff3e](https://github.com/royfuwei/rfjs/commit/589ff3ee1fb8315fd7962b23b25f62a0e973dd3d))
+* **helpers/mongo:** add genFilterQuery mongo helper ([115fb03](https://github.com/royfuwei/rfjs/commit/115fb0360f93ddce71fc8688e212b63b9de3170f))
+* **helpers/mongo:** add mongo toQuery helper ([ab567bc](https://github.com/royfuwei/rfjs/commit/ab567bcd6da433553593c5ce8bcbc1fd8dbbbaa3))
+* **helpers/mongo:** refactor mongoQuery to query, and add LogicalQuery, eq, nin, ne query instances ([840a8f3](https://github.com/royfuwei/rfjs/commit/840a8f3bdecfbf833583d9f417fa62ff8598c241))
+* **helpers/schedule:** add schedule registry helper tool ([8dc2e6d](https://github.com/royfuwei/rfjs/commit/8dc2e6de9260b00f0bd3b1075564c11dc91e73e1))
+* **libs/common:** add schedule type and dto ([e9f50d7](https://github.com/royfuwei/rfjs/commit/e9f50d7c242393d33bcee9c3f922c98209835d74))
+
+
+### Bug Fixes
+
+* **apps/api:** sonar scan code smell ([968528a](https://github.com/royfuwei/rfjs/commit/968528ade36c40f1f1f76b7268c19b6a9d574073))
+* **helpers/loggers:** service string type use toUpperCase ([39733ab](https://github.com/royfuwei/rfjs/commit/39733ab950a70d4cb0f90f341dc364c51d308954))
+* **packages/helpers:** import @rfjs/utils DataUtil.typeTransfer ([c133b62](https://github.com/royfuwei/rfjs/commit/c133b62a782e26aee039cf6ce4fcf566529edc82))
+
+### [0.0.23](https://github.com/royfuwei/rfjs/compare/v0.0.22...v0.0.23) (2024-07-27)
+
+
+### Features
+
+* **apps/gql:** adjust cors credentials ([f39591f](https://github.com/royfuwei/rfjs/commit/f39591f1efee96bc1641b67fb99c8db12755c32b))
+
+### [0.0.22](https://github.com/royfuwei/rfjs/compare/v0.0.21...v0.0.22) (2024-07-27)
+
+
+### Features
+
+* **apps/gql:** adjust cors origin ([fa1ee11](https://github.com/royfuwei/rfjs/commit/fa1ee11e227ec9e20179a77b5e7784d8cefaa3b0))
+
+### [0.0.21](https://github.com/royfuwei/rfjs/compare/v0.0.20...v0.0.21) (2024-07-26)
+
+
+### Features
+
+* **apps/gql:** adjust CORS headers for studio.apollographql.com ([5096456](https://github.com/royfuwei/rfjs/commit/5096456e0e37f396144f46bedf80c760d147cc3f))
+
+### [0.0.20](https://github.com/royfuwei/rfjs/compare/v0.0.19...v0.0.20) (2024-07-26)
+
+
+### Features
+
+* **apps/gql:** add apps/gql cors settings ([0e324cd](https://github.com/royfuwei/rfjs/commit/0e324cd6526e38bfa6e2238c7323b5c670c8bb7d))
+
+### [0.0.19](https://github.com/royfuwei/rfjs/compare/v0.0.18...v0.0.19) (2024-07-25)
+
+### [0.0.18](https://github.com/royfuwei/rfjs/compare/v0.0.17...v0.0.18) (2024-07-25)
+
+### [0.0.17](https://github.com/royfuwei/rfjs/compare/v0.0.16...v0.0.17) (2024-07-25)
+
+### [0.0.16](https://github.com/royfuwei/rfjs/compare/v0.0.15...v0.0.16) (2024-07-25)
+
+
+### Features
+
+* **apps/gql:** adjust graphql application settings ([965d927](https://github.com/royfuwei/rfjs/commit/965d927003e0f4be06581bd65348c0a24f69883c))
+* **apps/gql:** initial graphql application ([aad6fc4](https://github.com/royfuwei/rfjs/commit/aad6fc418c5c9408356b5451ab8e6b9df2c80222))
+* **common/repository:** add dataloader base mongoose repository ([b2f6c41](https://github.com/royfuwei/rfjs/commit/b2f6c418aaa89f7e340e6848e3382f535a28e488))
+* **common/types:** add jsonb types for helpers ([d21a7de](https://github.com/royfuwei/rfjs/commit/d21a7de98a03aa6cc8ccee8c3892feb191d9617f))
+* demoRepository extends BaseMongooseRepository, and graphql test dataloader ([02bc80d](https://github.com/royfuwei/rfjs/commit/02bc80d71080273eccc63bc676aadbf8b3e13d77))
+* **helpers/jsonbQuery:** adjust and export jsonbQuery helpers ([6d38cf8](https://github.com/royfuwei/rfjs/commit/6d38cf8e6b75ec2d11edb3a20e4842f566afed1c))
+* **utils/alias:** add alias ${key} or $key to obj keyValue ([efec65d](https://github.com/royfuwei/rfjs/commit/efec65dbc19a3764de5dc5a3d516e15ddfdbcc57))
+* **utils/data:** add date, boolean and jsonbTypeTransfer data utils ([9bb8741](https://github.com/royfuwei/rfjs/commit/9bb87410a6879cc55088d16de00d0a794d756bb1))
+* **utils/object:** adjust flatten return generics type ([9bd6237](https://github.com/royfuwei/rfjs/commit/9bd6237843ef1114d4ced37888c32a9439842d52))
+* **utils/object:** move regex/convertAliasData to alias/aliasData ([e221a84](https://github.com/royfuwei/rfjs/commit/e221a84e80fb788d1c86cc653750b4bc8f1e3da2))
+
+
+### Bug Fixes
+
+* sonar scan code smell ([cd4215e](https://github.com/royfuwei/rfjs/commit/cd4215ec21ae8708925ace2bd73258293b2ed410))
+* **sonar:** apps/gql Dockerfile ([f4e6784](https://github.com/royfuwei/rfjs/commit/f4e678498e656bfb238276405c85746152c39895))
+* **sonar:** remove as any type ([6d74722](https://github.com/royfuwei/rfjs/commit/6d747227209dba6cd3938889d922615e772bdb72))
+* **sonar:** remove unused import ([61e534e](https://github.com/royfuwei/rfjs/commit/61e534e8e2c4b085e2f7b92ef579cf1d118e3f87))
+* **sonar:** replace this union type with a type alias ([6ce5d3e](https://github.com/royfuwei/rfjs/commit/6ce5d3ed0e96e26dc772d22d9e63d9c77bbcdb92))
+* **utils/object:** cannot alias multi nested object error ([8f4ebda](https://github.com/royfuwei/rfjs/commit/8f4ebda05572100b6b0d729125aff8ea8f787052))
+* **utils/object:** fix flatten object in undefined, null and array data type error ([ac1b82a](https://github.com/royfuwei/rfjs/commit/ac1b82a266c4c79dfd586288bead1c7b39c4dd5a))
+
+### [0.0.15](https://github.com/royfuwei/rfjs/compare/v0.0.14...v0.0.15) (2024-06-16)
+
+
+### Features
+
+* **apps/web:** adjust dashboard layout and page ([866d767](https://github.com/royfuwei/rfjs/commit/866d767a9aa7fdfe713020d67101dee77f250a9a))
+* **web/components:** add nav-section and svg-color components ([cb6f1e9](https://github.com/royfuwei/rfjs/commit/cb6f1e9ac17e9d95a2f9edc6e75a26ebb545c2f7))
+* **web/components:** logo link component add href ([6e8182f](https://github.com/royfuwei/rfjs/commit/6e8182fa58ca28d38f6ab9b3fb450500d8438222))
+* **web/layouts:** add common account, setting and searchbar button ([f559aba](https://github.com/royfuwei/rfjs/commit/f559aba18bc6bf8764e09596ccba092271d517e9))
+
+
+### Bug Fixes
+
+* **apps/web:** sonar lint failed ([e62288a](https://github.com/royfuwei/rfjs/commit/e62288ac3373a78352e4fba9e035c340d81c62ca))
+
 ### [0.0.14](https://github.com/royfuwei/rfjs/compare/v0.0.13...v0.0.14) (2024-06-10)
 
 
