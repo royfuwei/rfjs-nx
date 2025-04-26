@@ -9,7 +9,7 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    environment: k8s-rfjs
+    environment: k8s-royfuwei
     outputs:
       current-version: ${{ steps.version.outputs.current-version }}
     strategy:
@@ -40,7 +40,7 @@ jobs:
     with:
       appVersion: ${{ needs.release.outputs.current-version  }}
       helmVersion: ${{ needs.release.outputs.current-version  }}
-      environment: k8s-rfjs
+      environment: k8s-royfuwei
     secrets:
       HARBOR_HOST: ${{ secrets.HARBOR_HOST }}
       HARBOR_USERNAME: ${{ secrets.HARBOR_USERNAME }}
