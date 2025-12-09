@@ -36,7 +36,7 @@ jobs:
   release-deploy-k8s:
     name: Deploy Release
     needs: release
-    uses: royfuwei/rf-devops/.github/workflows/rfjs-deploy-k8s.yml@main
+    uses: royfuwei/rf-devops/.github/workflows/rfjs-nx-deploy-k8s.yml@main
     with:
       appVersion: ${{ needs.release.outputs.current-version  }}
       helmVersion: ${{ needs.release.outputs.current-version  }}
