@@ -20,7 +20,7 @@ jobs:
   run-release:
     if: github.event.pull_request.merged == true
     name: Release Production
-    uses: royfuwei/rf-devops/.github/workflows/_node-release.yml@main
+    uses: royfuwei/rf-devops/.github/workflows/_node-release-nx.yml@main
     needs: run-ci
     secrets:
       GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
