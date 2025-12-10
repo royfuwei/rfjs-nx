@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.31](https://github.com/royfuwei/rfjs-nx/compare/v0.0.29...v0.0.31) (2025-12-10)
+
+
+### Features
+
+* adjust project name to rfjs-nx ([2f65a7b](https://github.com/royfuwei/rfjs-nx/commit/2f65a7b0b7a1de53f3a57d4bf142ffa9636f0d31))
+
 ### [0.0.30](https://github.com/royfuwei/rfjs-nx/compare/v0.0.29...v0.0.30) (2025-12-10)
 
 
