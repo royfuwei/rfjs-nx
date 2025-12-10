@@ -1,4 +1,4 @@
-import { ValueType } from "@rfjs/common";
+import { ValueType } from "@rfjs-nx/common";
 
 /**
  * convert nested object to flat object

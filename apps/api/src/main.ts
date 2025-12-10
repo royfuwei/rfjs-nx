@@ -1,7 +1,7 @@
 import 'reflect-metadata';
 import { server } from './server';
 import { LoggerHelper } from './common/helpers/logger.helper';
-import { ScheduleRegistry } from '@rfjs/helpers';
+import { ScheduleRegistry } from '@rfjs-nx/helpers';
 import { initSchedule } from './schedule';
 
 async function main() {

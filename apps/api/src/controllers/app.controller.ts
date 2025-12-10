@@ -5,7 +5,7 @@ import {
   IAppService,
   AppUsecase,
   INJECT_SVC_APP_SERVICE,
-} from '@rfjs/modules';
+} from '@rfjs-nx/modules';
 import {
   Body,
   Ctx,
@@ -23,10 +23,10 @@ import {
   ApiResErrDTO,
   HttpException,
   TestDataDTO,
-} from '@rfjs/common';
+} from '@rfjs-nx/common';
 import httpStatus from 'http-status';
 import { ResponseSchema } from 'routing-controllers-openapi';
-import { ApiUtil } from '@rfjs/utils';
+import { ApiUtil } from '@rfjs-nx/utils';
 
 @injectable()
 @ResponseSchema(ApiResErrDTO, {

@@ -1,6 +1,6 @@
 import { inject, injectable } from 'tsyringe';
 import { Query, Resolver } from 'type-graphql';
-import { AppUsecase } from '@rfjs/modules';
+import { AppUsecase } from '@rfjs-nx/modules';
 import { Test } from '../test/test.gql.type';
 
 @injectable()

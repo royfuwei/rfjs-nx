@@ -38,7 +38,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 * **apps/api:** sonar scan code smell ([968528a](https://github.com/royfuwei/rfjs/commit/968528ade36c40f1f1f76b7268c19b6a9d574073))
 * **helpers/loggers:** service string type use toUpperCase ([39733ab](https://github.com/royfuwei/rfjs/commit/39733ab950a70d4cb0f90f341dc364c51d308954))
-* **packages/helpers:** import @rfjs/utils DataUtil.typeTransfer ([c133b62](https://github.com/royfuwei/rfjs/commit/c133b62a782e26aee039cf6ce4fcf566529edc82))
+* **packages/helpers:** import @rfjs-nx/utils DataUtil.typeTransfer ([c133b62](https://github.com/royfuwei/rfjs/commit/c133b62a782e26aee039cf6ce4fcf566529edc82))
 
 ### [0.0.23](https://github.com/royfuwei/rfjs/compare/v0.0.22...v0.0.23) (2024-07-27)
 
@@ -192,12 +192,12 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### Features
 
-* **@rfjs/helper:** add jsonbQuery helper ([e42bd73](https://github.com/royfuwei/rfjs/commit/e42bd734a97f740276f8cf5f223a040ebeae585f))
-* **@rfjs/helper:** create delay helper ([53cf159](https://github.com/royfuwei/rfjs/commit/53cf1597551353a81a27b31e4357915fadf83020))
-* **@rfjs/helper:** create retry helper ([8637f95](https://github.com/royfuwei/rfjs/commit/8637f9593e05fb714a87cb061f8d69b2f98d7037))
-* **@rfjs/helper:** initial package @rfjs/helper ([b6e47b8](https://github.com/royfuwei/rfjs/commit/b6e47b889fd8eb4325caa4a67315691a99452496))
-* **@rfjs/utils:** export util ObjectUtil ([a26fc43](https://github.com/royfuwei/rfjs/commit/a26fc43d7bb38bbbd244c655d1d1d9f366a2253e))
-* **@rfjs/utils:** object utils flatten, keysToNested, toFlatString, toJSONString ([82f5397](https://github.com/royfuwei/rfjs/commit/82f539759733ff475f56fd03574f6db97818a9ff))
+* **@rfjs-nx/helper:** add jsonbQuery helper ([e42bd73](https://github.com/royfuwei/rfjs/commit/e42bd734a97f740276f8cf5f223a040ebeae585f))
+* **@rfjs-nx/helper:** create delay helper ([53cf159](https://github.com/royfuwei/rfjs/commit/53cf1597551353a81a27b31e4357915fadf83020))
+* **@rfjs-nx/helper:** create retry helper ([8637f95](https://github.com/royfuwei/rfjs/commit/8637f9593e05fb714a87cb061f8d69b2f98d7037))
+* **@rfjs-nx/helper:** initial package @rfjs-nx/helper ([b6e47b8](https://github.com/royfuwei/rfjs/commit/b6e47b889fd8eb4325caa4a67315691a99452496))
+* **@rfjs-nx/utils:** export util ObjectUtil ([a26fc43](https://github.com/royfuwei/rfjs/commit/a26fc43d7bb38bbbd244c655d1d1d9f366a2253e))
+* **@rfjs-nx/utils:** object utils flatten, keysToNested, toFlatString, toJSONString ([82f5397](https://github.com/royfuwei/rfjs/commit/82f539759733ff475f56fd03574f6db97818a9ff))
 * **apps/api:** add response time middleware ([ea048ad](https://github.com/royfuwei/rfjs/commit/ea048ad6e49922e14d03e9e9af69e0dcd3cb3be7))
 * **apps/api:** add supabase auth controller ([0b116e7](https://github.com/royfuwei/rfjs/commit/0b116e75ab9308d2edefda79b2785fc203bc59c7))
 * **apps/api:** add test line notify and bot controllers ([51684e2](https://github.com/royfuwei/rfjs/commit/51684e2727afa7c057250d203bac01b7bf099ed9))
@@ -229,7 +229,7 @@ All notable changes to this project will be documented in this file. See [standa
 * **packages/helper:** add jsonbQuery helper ([b2c8a49](https://github.com/royfuwei/rfjs/commit/b2c8a49a68badd5478ff7efe09222236137e2210))
 * **packages/helper:** create delay helper ([7d06c82](https://github.com/royfuwei/rfjs/commit/7d06c82c2a5a44cd562a8370dd7c76ef7515a3d2))
 * **packages/helper:** create retry helper ([61880f1](https://github.com/royfuwei/rfjs/commit/61880f199ac05078ec4ccfeb962714e828fc8122))
-* **packages/helper:** initial package @rfjs/helper ([2df6ec0](https://github.com/royfuwei/rfjs/commit/2df6ec03fc8c1e6008afcd67fe57357c7a454f4d))
+* **packages/helper:** initial package @rfjs-nx/helper ([2df6ec0](https://github.com/royfuwei/rfjs/commit/2df6ec03fc8c1e6008afcd67fe57357c7a454f4d))
 * **packages/helpers:** add json web token tool ([1d3cf15](https://github.com/royfuwei/rfjs/commit/1d3cf158e5375b9120da1703063bea2f8646524a))
 * **packages/helpers:** add winston logger helper tool ([df3a3b1](https://github.com/royfuwei/rfjs/commit/df3a3b120644238b7cbb6e3dd5daf6af3178b1d4)), closes [#2](https://github.com/royfuwei/rfjs/issues/2)
 * **packages/utility:** add ConsoleObj return string object nest value ([0a2e99c](https://github.com/royfuwei/rfjs/commit/0a2e99c6806d84a237ee587afdf74d1a6dbb6403))

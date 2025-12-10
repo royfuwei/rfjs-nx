@@ -1,4 +1,4 @@
-import { BaseMonogoClient } from '@rfjs/repos';
+import { BaseMonogoClient } from '@rfjs-nx/repos';
 import configs from '../../configs';
 import { DbLogger } from '../../common/helpers/logger.helper';
 

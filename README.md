@@ -1,11 +1,11 @@
-# rfjs tools packages
+# rfjs-nx tools packages
 
 Build an npm package tool with Nx monorepo.
 
 ## My Packages
 
-- **@rfjs/utils**: 
-- **@rfjs/helpers**:
+- **@rfjs-nx/utils**: 
+- **@rfjs-nx/helpers**:
 
 ---
 

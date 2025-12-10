@@ -1,4 +1,4 @@
-import { BooleanFilterOperator, ObjectData } from '@rfjs/common';
+import { BooleanFilterOperator, ObjectData } from '@rfjs-nx/common';
 import _ = require('lodash');
 import { typeTransfer } from '../../data';
 

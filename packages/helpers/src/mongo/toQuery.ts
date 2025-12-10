@@ -1,5 +1,5 @@
-import { MgoConditionType, MgoDataType, ValueType } from '@rfjs/common';
-import { DataUtil } from '@rfjs/utils';
+import { MgoConditionType, MgoDataType, ValueType } from '@rfjs-nx/common';
+import { DataUtil } from '@rfjs-nx/utils';
 import {
   TermsQuery,
   RegexQuery,

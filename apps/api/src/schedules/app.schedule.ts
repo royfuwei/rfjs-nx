@@ -1,7 +1,7 @@
 import { inject, injectable } from "tsyringe";
-import { AppUsecase } from "@rfjs/modules";
+import { AppUsecase } from "@rfjs-nx/modules";
 import moment from "moment";
-import { ScheduleRegistry } from "@rfjs/helpers";
+import { ScheduleRegistry } from "@rfjs-nx/helpers";
 
 @injectable()
 export class AppSchedule {

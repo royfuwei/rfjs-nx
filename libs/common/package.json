@@ -1,5 +1,5 @@
 {
-  "name": "@rfjs/common",
+  "name": "@rfjs-nx/common",
   "version": "0.0.1",
   "dependencies": {
     "class-validator": "^0.14.1",

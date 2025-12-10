@@ -4,7 +4,7 @@ import {
   NumericFilterOperator,
   ObjectData,
   TextFilterOperator,
-} from '@rfjs/common';
+} from '@rfjs-nx/common';
 import _ = require('lodash');
 import { FilterMatchQuery, MatchQueryMetadata } from './type';
 import { MatchTextQuery, MatchNumericQuery, MatchBooleanQuery } from './match';

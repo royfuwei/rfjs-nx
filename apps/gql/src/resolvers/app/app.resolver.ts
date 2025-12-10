@@ -2,7 +2,7 @@ import { inject, injectable } from 'tsyringe';
 import { FieldResolver, Query, Resolver } from 'type-graphql';
 import { App } from './app.gql.type';
 import configs from '../../configs';
-import { AppUsecase, DemoRepository, INJECT_DEMO_REPO } from '@rfjs/modules';
+import { AppUsecase, DemoRepository, INJECT_DEMO_REPO } from '@rfjs-nx/modules';
 import { Test } from '../test/test.gql.type';
 
 @injectable()

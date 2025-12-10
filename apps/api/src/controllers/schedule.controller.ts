@@ -1,6 +1,6 @@
-import { ReqRescheduleBodyDTO, ScheduleInfoDTO } from "@rfjs/common";
-import { ScheduleRegistry } from "@rfjs/helpers";
-import { ApiUtil } from "@rfjs/utils";
+import { ReqRescheduleBodyDTO, ScheduleInfoDTO } from "@rfjs-nx/common";
+import { ScheduleRegistry } from "@rfjs-nx/helpers";
+import { ApiUtil } from "@rfjs-nx/utils";
 import { Body, Get, JsonController, Post } from "routing-controllers";
 import { injectable } from "tsyringe";
 

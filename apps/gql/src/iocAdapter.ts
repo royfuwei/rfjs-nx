@@ -3,8 +3,8 @@ import {
   IDemoRepository,
   INJECT_DEMO_REPO,
   DemoRepository,
-} from '@rfjs/modules';
-import { BaseMonogoClient } from '@rfjs/repos';
+} from '@rfjs-nx/modules';
+import { BaseMonogoClient } from '@rfjs-nx/repos';
 import { container, DependencyContainer, InjectionToken } from 'tsyringe';
 import { DemoDbMongoClient } from './common/mongodb/demoDB';
 

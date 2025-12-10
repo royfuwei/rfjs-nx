@@ -16,7 +16,7 @@ import {
   AuthSupabaseSignInBodyDTO,
   AuthSupabaseSignOutBodyDTO,
   EnumAuthSupabaseProvider,
-} from '@rfjs/common';
+} from '@rfjs-nx/common';
 import httpStatus from 'http-status';
 import { ResponseSchema } from 'routing-controllers-openapi';
 import { Provider, SupabaseClient, createClient } from '@supabase/supabase-js';

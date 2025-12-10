@@ -2,7 +2,7 @@ import {
   NumericFilterOperator,
   DefaultFilterOperator,
   ObjectData,
-} from '@rfjs/common';
+} from '@rfjs-nx/common';
 import _ = require('lodash');
 import { typeTransfer } from '../../data';
 

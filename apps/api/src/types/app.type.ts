@@ -1,5 +1,5 @@
-import { ApiResDataDTO, ApiResPaginatedDTO, TestData } from '@rfjs/common';
-import { AppInfoDTO } from '@rfjs/modules';
+import { ApiResDataDTO, ApiResPaginatedDTO, TestData } from '@rfjs-nx/common';
+import { AppInfoDTO } from '@rfjs-nx/modules';
 import { IsString } from 'class-validator';
 import { JSONSchema } from 'class-validator-jsonschema';
 

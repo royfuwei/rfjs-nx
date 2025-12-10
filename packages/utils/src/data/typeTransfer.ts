@@ -1,4 +1,4 @@
-import { DataType, MgoDataType, ValueType } from '@rfjs/common';
+import { DataType, MgoDataType, ValueType } from '@rfjs-nx/common';
 import _ = require('lodash');
 import { toBoolean } from './boolean';
 

@@ -1,5 +1,5 @@
 import _ = require('lodash');
-import { ObjectData } from '@rfjs/common';
+import { ObjectData } from '@rfjs-nx/common';
 import { filterMatchQueryData } from './filterMatchQueryData';
 import { FilterMatchQuery } from './type';
 import { aliasData } from '../alias';

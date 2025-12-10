@@ -1,4 +1,4 @@
-import { ApiResData, ApiResPaginated } from '@rfjs/common';
+import { ApiResData, ApiResPaginated } from '@rfjs-nx/common';
 
 export const apiResData = <T>(
   data: T | T[] | null,

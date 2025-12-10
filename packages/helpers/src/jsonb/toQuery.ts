@@ -1,6 +1,6 @@
-import { DataUtil } from '@rfjs/utils';
+import { DataUtil } from '@rfjs-nx/utils';
 import { JsonbOperatorQuery, filterOperator } from './jsonbOperatorQuery';
-import { JsonbDataType, ValueType } from '@rfjs/common';
+import { JsonbDataType, ValueType } from '@rfjs-nx/common';
 import { FilterOperator } from './type';
 
 export const toJsonbQuery = (

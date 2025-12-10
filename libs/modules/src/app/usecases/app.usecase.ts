@@ -2,7 +2,7 @@ import { inject, injectable } from 'tsyringe';
 import { IDemoRepository } from '../../demo';
 import { IAppUseCase } from '../types/app.interface';
 import { INJECT_DEMO_REPO } from '../../const';
-import { TestData } from '@rfjs/common';
+import { TestData } from '@rfjs-nx/common';
 
 @injectable()
 export class AppUsecase implements IAppUseCase {

@@ -1,4 +1,4 @@
-import { TestData } from '@rfjs/common';
+import { TestData } from '@rfjs-nx/common';
 import { Field, ObjectType } from 'type-graphql';
 
 @ObjectType()

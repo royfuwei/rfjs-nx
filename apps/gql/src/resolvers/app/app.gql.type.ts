@@ -1,4 +1,4 @@
-import { AppInfo } from '@rfjs/modules';
+import { AppInfo } from '@rfjs-nx/modules';
 import { Field, ObjectType } from 'type-graphql';
 
 @ObjectType()

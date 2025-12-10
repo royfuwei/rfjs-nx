@@ -1,4 +1,4 @@
-import { EnumMgoLogicalOperator, isMgoFieldConditionType, isMgoFilterMetadataType, MgoFieldCondition, MgoFilterMetadata } from "@rfjs/common";
+import { EnumMgoLogicalOperator, isMgoFieldConditionType, isMgoFilterMetadataType, MgoFieldCondition, MgoFilterMetadata } from "@rfjs-nx/common";
 import { LogicalQuery } from "./query";
 import { toQuery } from "./toQuery";
 

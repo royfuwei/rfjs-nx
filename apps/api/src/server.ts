@@ -7,7 +7,7 @@ import * as _indexMiddlewares from './middlewares';
 import { initKoaApp } from './koaApp';
 import { HttpLogger } from './common/helpers/logger.helper';
 import { DemoDbMongoClient } from './database/mongodb/demoDB';
-import { INJECT_MONGO_CLIENT } from '@rfjs/modules';
+import { INJECT_MONGO_CLIENT } from '@rfjs-nx/modules';
 
 export async function server() {
   const client =

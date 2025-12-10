@@ -6,7 +6,7 @@ import {
   QueryParam,
   Redirect,
 } from 'routing-controllers';
-import { ApiResErrDTO } from '@rfjs/common';
+import { ApiResErrDTO } from '@rfjs-nx/common';
 import httpStatus from 'http-status';
 import { ResponseSchema } from 'routing-controllers-openapi';
 import configs from '../configs';

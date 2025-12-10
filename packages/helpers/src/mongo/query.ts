@@ -1,4 +1,4 @@
-import { EnumMgoLogicalOperator, ValueType } from '@rfjs/common';
+import { EnumMgoLogicalOperator, ValueType } from '@rfjs-nx/common';
 
 export class LogicalQuery {
   [EnumMgoLogicalOperator.AND]?: Array<any>;

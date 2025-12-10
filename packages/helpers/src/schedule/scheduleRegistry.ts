@@ -1,4 +1,4 @@
-import { RescheduleInfo, ScheduleInfoDTO, ScheduleJobInfo } from '@rfjs/common';
+import { RescheduleInfo, ScheduleInfoDTO, ScheduleJobInfo } from '@rfjs-nx/common';
 import { JobCallback, gracefulShutdown, scheduleJob } from 'node-schedule';
 
 export class ScheduleRegistry {

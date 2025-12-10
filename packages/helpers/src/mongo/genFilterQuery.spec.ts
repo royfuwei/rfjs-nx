@@ -1,4 +1,4 @@
-import { MgoFilterMetadata } from '@rfjs/common';
+import { MgoFilterMetadata } from '@rfjs-nx/common';
 import { genFilterQuery } from './genFilterQuery';
 import { EqQuery, GTQuery, LogicalQuery } from './query';
 describe('Test Mongo genFilterQuery', () => {

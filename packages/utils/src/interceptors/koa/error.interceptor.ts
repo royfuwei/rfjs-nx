@@ -1,5 +1,5 @@
 import * as Koa from 'koa';
-import { ApiResErr, HttpException } from '@rfjs/common';
+import { ApiResErr, HttpException } from '@rfjs-nx/common';
 import { Logger } from 'winston';
 import * as _ from 'lodash';
 

@@ -1,4 +1,4 @@
-import { JsonbDataType, JsonbValueTransfer, ValueType } from "@rfjs/common";
+import { JsonbDataType, JsonbValueTransfer, ValueType } from "@rfjs-nx/common";
 import { toDateString } from "./date";
 import { toBoolean } from "./boolean";
 

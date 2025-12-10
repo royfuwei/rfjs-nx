@@ -34,9 +34,9 @@ export function getSwaggerSpec(
         schemas: Object(schemas),
       },
       info: {
-        title: name ?? '@rfjs/api',
+        title: name ?? '@rfjs-nx/api',
         version: version ?? 'v0',
-        description: '@rfjs rest api',
+        description: '@rfjs-nx rest api',
       },
     });
     return spec;

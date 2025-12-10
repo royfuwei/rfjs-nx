@@ -1,4 +1,4 @@
-import { TDataType } from '@rfjs/common';
+import { TDataType } from '@rfjs-nx/common';
 import { OpenAPI } from 'routing-controllers-openapi';
 
 export const ApiResPaginatedSchema = <TModel extends TDataType<any>>(

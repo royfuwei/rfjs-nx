@@ -1,4 +1,4 @@
-import { INJECT_MONGO_CLIENT } from '@rfjs/modules';
+import { INJECT_MONGO_CLIENT } from '@rfjs-nx/modules';
 import { iocAdapter } from './iocAdapter';
 import { DemoDbMongoClient } from './common/mongodb/demoDB';
 

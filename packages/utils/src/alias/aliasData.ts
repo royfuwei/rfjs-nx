@@ -1,5 +1,5 @@
 import _ = require('lodash');
-import { ObjectData } from '@rfjs/common';
+import { ObjectData } from '@rfjs-nx/common';
 import { aliasValue } from '.';
 import { flatten } from '../object';
 

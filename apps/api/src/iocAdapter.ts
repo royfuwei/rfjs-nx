@@ -8,9 +8,9 @@ import {
   INJECT_MONGO_CLIENT,
   INJECT_DEMO_REPO,
   INJECT_SVC_APP_SERVICE,
-} from '@rfjs/modules';
+} from '@rfjs-nx/modules';
 import { IocLogger } from './common/helpers/logger.helper';
-import { BaseMonogoClient } from '@rfjs/repos';
+import { BaseMonogoClient } from '@rfjs-nx/repos';
 import { DemoDbMongoClient } from './database/mongodb/demoDB';
 
 export class TsyringeAdapter implements IocAdapter {

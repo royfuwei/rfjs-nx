@@ -1,13 +1,13 @@
 {
-  "name": "@rfjs/repos",
+  "name": "@rfjs-nx/repos",
   "version": "0.0.1",
   "dependencies": {
     "tslib": "^2.3.0",
     "mongoose": "^8.2.3",
     "uuid": "^9.0.1",
-    "@rfjs/helpers": "0.0.1",
+    "@rfjs-nx/helpers": "0.0.1",
     "lodash": "^4.17.21",
-    "@rfjs/common": "0.0.1",
+    "@rfjs-nx/common": "0.0.1",
     "winston": "^3.12.0"
   },
   "type": "commonjs",

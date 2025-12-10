@@ -1,4 +1,4 @@
-import { WinstonHelper } from '@rfjs/helpers';
+import { WinstonHelper } from '@rfjs-nx/helpers';
 import { ConnectOptions, Connection, Mongoose } from 'mongoose';
 import { v4 as uuidV4 } from 'uuid';
 import { Logger } from 'winston';

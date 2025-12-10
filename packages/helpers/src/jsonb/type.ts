@@ -1,4 +1,4 @@
-import { JsonbDataType, ValueType } from '@rfjs/common';
+import { JsonbDataType, ValueType } from '@rfjs-nx/common';
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 export interface ISqlQuery {

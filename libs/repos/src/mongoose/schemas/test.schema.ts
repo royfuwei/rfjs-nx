@@ -1,6 +1,6 @@
 import _ = require('lodash');
 import { Schema } from 'mongoose';
-import { Test } from '@rfjs/common';
+import { Test } from '@rfjs-nx/common';
 
 export const testSchema = new Schema<Test>(
   {

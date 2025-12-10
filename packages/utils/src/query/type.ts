@@ -5,7 +5,7 @@ import {
   NumericFilterOperator,
   TextFilterOperator,
   ValueType,
-} from '@rfjs/common';
+} from '@rfjs-nx/common';
 
 export type FilterMatchQuery = {
   logic: LogicalOperator;

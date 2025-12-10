@@ -1,6 +1,6 @@
 import { injectable } from 'tsyringe';
 import { Get, JsonController, Param } from 'routing-controllers';
-import { ApiResErrDTO } from '@rfjs/common';
+import { ApiResErrDTO } from '@rfjs-nx/common';
 import httpStatus from 'http-status';
 import { ResponseSchema } from 'routing-controllers-openapi';
 import { messageApiClient } from '../common/helpers/lineBot.helper';
